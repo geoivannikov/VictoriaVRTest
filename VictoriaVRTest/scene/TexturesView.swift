@@ -52,7 +52,7 @@ struct TexturesView: View {
 
             })
             .padding()
-//            NavigationLink(destination: ARViewContainer(model: arModel), isActive: $isARVewActive) { }
+            NavigationLink(destination: ARViewContainer(model: arModel), isActive: $isARVewActive) { }
         }
     }
 }

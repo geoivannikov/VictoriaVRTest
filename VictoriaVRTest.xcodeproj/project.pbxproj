@@ -17,6 +17,7 @@
 		9C142D5D28C3518000CDA46C /* SCNViewCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D5C28C3518000CDA46C /* SCNViewCreator.swift */; };
 		9C142D5F28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D5E28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift */; };
 		9C142D6228C354C500CDA46C /* AssetExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D6128C354C500CDA46C /* AssetExtractor.swift */; };
+		9C142D6428C3558400CDA46C /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D6328C3558400CDA46C /* ARViewContainer.swift */; };
 		9C76464428C31BAE00391045 /* VictoriaVRTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76464328C31BAE00391045 /* VictoriaVRTestApp.swift */; };
 		9C76464828C31BAF00391045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C76464728C31BAF00391045 /* Assets.xcassets */; };
 		9C76464B28C31BAF00391045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C76464A28C31BAF00391045 /* Preview Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		9C142D5C28C3518000CDA46C /* SCNViewCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNViewCreator.swift; sourceTree = "<group>"; };
 		9C142D5E28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitEditableTextureViewContainer.swift; sourceTree = "<group>"; };
 		9C142D6128C354C500CDA46C /* AssetExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetExtractor.swift; sourceTree = "<group>"; };
+		9C142D6328C3558400CDA46C /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		9C76464028C31BAE00391045 /* VictoriaVRTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoriaVRTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C76464328C31BAE00391045 /* VictoriaVRTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoriaVRTestApp.swift; sourceTree = "<group>"; };
 		9C76464728C31BAF00391045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,14 +61,14 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		9C142D4D28C3504200CDA46C /* Resources */ = {
+		9C142D4D28C3504200CDA46C /* resources */ = {
 			isa = PBXGroup;
 			children = (
 				9C142D4E28C3504200CDA46C /* object3.usdz */,
 				9C142D4F28C3504200CDA46C /* object2.usdz */,
 				9C142D5028C3504200CDA46C /* object1.usdz */,
 			);
-			path = Resources;
+			path = resources;
 			sourceTree = "<group>";
 		};
 		9C142D5428C3504B00CDA46C /* scene */ = {
@@ -74,6 +76,7 @@
 			children = (
 				9C142D5528C3504B00CDA46C /* ARModelsListView.swift */,
 				9C142D5728C3508F00CDA46C /* TexturesView.swift */,
+				9C142D6328C3558400CDA46C /* ARViewContainer.swift */,
 			);
 			path = scene;
 			sourceTree = "<group>";
@@ -119,7 +122,7 @@
 				9C142D5928C350B800CDA46C /* components */,
 				9C142D4A28C3503800CDA46C /* model */,
 				9C142D5428C3504B00CDA46C /* scene */,
-				9C142D4D28C3504200CDA46C /* Resources */,
+				9C142D4D28C3504200CDA46C /* resources */,
 				9C76464328C31BAE00391045 /* VictoriaVRTestApp.swift */,
 				9C76464728C31BAF00391045 /* Assets.xcassets */,
 				9C76464C28C31BAF00391045 /* Info.plist */,
@@ -213,6 +216,7 @@
 				9C142D5B28C350DD00CDA46C /* SceneKitViewContainer.swift in Sources */,
 				9C142D6228C354C500CDA46C /* AssetExtractor.swift in Sources */,
 				9C142D5F28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift in Sources */,
+				9C142D6428C3558400CDA46C /* ARViewContainer.swift in Sources */,
 				9C76464428C31BAE00391045 /* VictoriaVRTestApp.swift in Sources */,
 				9C142D5D28C3518000CDA46C /* SCNViewCreator.swift in Sources */,
 				9C142D5628C3504B00CDA46C /* ARModelsListView.swift in Sources */,
