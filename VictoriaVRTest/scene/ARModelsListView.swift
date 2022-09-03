@@ -21,7 +21,9 @@ struct ARModelsListView: View {
             VStack {
                 Text("Pick a model")
                     .bold()
-                ForEach(arModels, id: \.self) { arModel in
+                ForEach(arModels.sorted(by: { (lhs: ARModel, rhs: ARModel) -> Bool in
+                    (lhs.fileName, lhs.textures.count) < (rhs.fileName, rhs.textures.count)
+                }), id: \.self) { arModel in
                         ZStack {
                             SceneKitViewContainer(arModel: arModel)
                             .ignoresSafeArea()

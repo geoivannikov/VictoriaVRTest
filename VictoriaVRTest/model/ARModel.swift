@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct ARModel: Hashable {
+struct ARModel {
     let fileName: String
     let node: String
-    let textures: [String]
+    let textures: [String] // If I understand the task correctly, an object can have multiple textures
 }
 
 extension ARModel {
@@ -25,3 +25,5 @@ extension ARModel {
         }
     }
 }
+
+extension ARModel: Hashable { }
