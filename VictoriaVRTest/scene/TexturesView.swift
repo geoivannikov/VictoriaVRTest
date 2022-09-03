@@ -14,7 +14,7 @@ struct TexturesView: View {
 
     var body: some View {
         VStack {
-            SceneKitViewContainer(arModel: arModel, texture: $selectedTexture).ignoresSafeArea()
+            SceneKitEditableTextureViewContainer(arModel: arModel, texture: $selectedTexture).ignoresSafeArea()
             Text("Pick a texture")
                 .bold()
             HStack{
@@ -27,9 +27,7 @@ struct TexturesView: View {
                                 .layoutPriority(-1)
                                 .onTapGesture {
                                     selectedTexture = "\(fileName).png"
-                                    arModel = ARModel(fileName: arModel!.fileName,
-                                                      node: arModel!.node,
-                                                      textures: [selectedTexture ?? ""])
+                                    arModel = ARModel(model: arModel, texture: selectedTexture)
                                 }
                             VStack {
                                 Spacer()

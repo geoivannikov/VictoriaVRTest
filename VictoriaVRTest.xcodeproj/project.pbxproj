@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C142D4C28C3503800CDA46C /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D4B28C3503800CDA46C /* ARModel.swift */; };
+		9C142D5128C3504200CDA46C /* object3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C142D4E28C3504200CDA46C /* object3.usdz */; };
+		9C142D5228C3504200CDA46C /* object2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C142D4F28C3504200CDA46C /* object2.usdz */; };
+		9C142D5328C3504200CDA46C /* object1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C142D5028C3504200CDA46C /* object1.usdz */; };
+		9C142D5628C3504B00CDA46C /* ARModelsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D5528C3504B00CDA46C /* ARModelsListView.swift */; };
+		9C142D5828C3508F00CDA46C /* TexturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D5728C3508F00CDA46C /* TexturesView.swift */; };
+		9C142D5B28C350DD00CDA46C /* SceneKitViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D5A28C350DD00CDA46C /* SceneKitViewContainer.swift */; };
+		9C142D5D28C3518000CDA46C /* SCNViewCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D5C28C3518000CDA46C /* SCNViewCreator.swift */; };
+		9C142D5F28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C142D5E28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift */; };
 		9C76464428C31BAE00391045 /* VictoriaVRTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76464328C31BAE00391045 /* VictoriaVRTestApp.swift */; };
-		9C76464628C31BAE00391045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76464528C31BAE00391045 /* ContentView.swift */; };
 		9C76464828C31BAF00391045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C76464728C31BAF00391045 /* Assets.xcassets */; };
 		9C76464B28C31BAF00391045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C76464A28C31BAF00391045 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C142D4B28C3503800CDA46C /* ARModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		9C142D4E28C3504200CDA46C /* object3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = object3.usdz; sourceTree = "<group>"; };
+		9C142D4F28C3504200CDA46C /* object2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = object2.usdz; sourceTree = "<group>"; };
+		9C142D5028C3504200CDA46C /* object1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = object1.usdz; sourceTree = "<group>"; };
+		9C142D5528C3504B00CDA46C /* ARModelsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARModelsListView.swift; sourceTree = "<group>"; };
+		9C142D5728C3508F00CDA46C /* TexturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturesView.swift; sourceTree = "<group>"; };
+		9C142D5A28C350DD00CDA46C /* SceneKitViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewContainer.swift; sourceTree = "<group>"; };
+		9C142D5C28C3518000CDA46C /* SCNViewCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNViewCreator.swift; sourceTree = "<group>"; };
+		9C142D5E28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitEditableTextureViewContainer.swift; sourceTree = "<group>"; };
 		9C76464028C31BAE00391045 /* VictoriaVRTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoriaVRTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C76464328C31BAE00391045 /* VictoriaVRTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoriaVRTestApp.swift; sourceTree = "<group>"; };
-		9C76464528C31BAE00391045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C76464728C31BAF00391045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C76464A28C31BAF00391045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C76464C28C31BAF00391045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +49,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C142D4A28C3503800CDA46C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9C142D4B28C3503800CDA46C /* ARModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9C142D4D28C3504200CDA46C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C142D4E28C3504200CDA46C /* object3.usdz */,
+				9C142D4F28C3504200CDA46C /* object2.usdz */,
+				9C142D5028C3504200CDA46C /* object1.usdz */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C142D5428C3504B00CDA46C /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				9C142D5528C3504B00CDA46C /* ARModelsListView.swift */,
+				9C142D5728C3508F00CDA46C /* TexturesView.swift */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		9C142D5928C350B800CDA46C /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9C142D5C28C3518000CDA46C /* SCNViewCreator.swift */,
+				9C142D5A28C350DD00CDA46C /* SceneKitViewContainer.swift */,
+				9C142D5E28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		9C76463728C31BAE00391045 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +105,11 @@
 		9C76464228C31BAE00391045 /* VictoriaVRTest */ = {
 			isa = PBXGroup;
 			children = (
+				9C142D5928C350B800CDA46C /* components */,
+				9C142D4A28C3503800CDA46C /* model */,
+				9C142D5428C3504B00CDA46C /* scene */,
+				9C142D4D28C3504200CDA46C /* Resources */,
 				9C76464328C31BAE00391045 /* VictoriaVRTestApp.swift */,
-				9C76464528C31BAE00391045 /* ContentView.swift */,
 				9C76464728C31BAF00391045 /* Assets.xcassets */,
 				9C76464C28C31BAF00391045 /* Info.plist */,
 				9C76464928C31BAF00391045 /* Preview Content */,
@@ -126,7 +182,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C142D5128C3504200CDA46C /* object3.usdz in Resources */,
+				9C142D5228C3504200CDA46C /* object2.usdz in Resources */,
 				9C76464B28C31BAF00391045 /* Preview Assets.xcassets in Resources */,
+				9C142D5328C3504200CDA46C /* object1.usdz in Resources */,
 				9C76464828C31BAF00391045 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C76464628C31BAE00391045 /* ContentView.swift in Sources */,
+				9C142D5828C3508F00CDA46C /* TexturesView.swift in Sources */,
+				9C142D4C28C3503800CDA46C /* ARModel.swift in Sources */,
+				9C142D5B28C350DD00CDA46C /* SceneKitViewContainer.swift in Sources */,
+				9C142D5F28C352D600CDA46C /* SceneKitEditableTextureViewContainer.swift in Sources */,
 				9C76464428C31BAE00391045 /* VictoriaVRTestApp.swift in Sources */,
+				9C142D5D28C3518000CDA46C /* SCNViewCreator.swift in Sources */,
+				9C142D5628C3504B00CDA46C /* ARModelsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
